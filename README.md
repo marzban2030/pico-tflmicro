@@ -1,5 +1,5 @@
 
-# TensorFlow Lite Micro
+# TensorFlow Lite Micro for Raspberry Pi Pico microcontroller
 
 An Open Source Machine Learning Framework for Everyone.
 
