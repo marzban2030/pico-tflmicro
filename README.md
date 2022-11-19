@@ -22,6 +22,10 @@ You should then be able to build the library, tests, and examples. The easiest w
 build is using VS Code's CMake integration, by loading the project and choosing the
 build option at the bottom of the window.
 
+## Set Up Raspberry Pi Pico SDK guide
+
+Follow instructions at https://lindevs.com/set-up-raspberry-pi-pico-sdk-on-ubuntu
+
 ## What's Included
 
 There are several example applications included. The simplest one to begin with is the
