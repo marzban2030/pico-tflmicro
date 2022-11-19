@@ -24,7 +24,15 @@ build option at the bottom of the window.
 
 ## Set Up Raspberry Pi Pico SDK guide
 
-Follow instructions at https://lindevs.com/set-up-raspberry-pi-pico-sdk-on-ubuntu
+Run these commands:
+```
+sudo apt install -y build-essential cmake gcc-arm-none-eabi
+sudo git clone https://github.com/raspberrypi/pico-sdk.git /opt/pico-sdk
+sudo git -C /opt/pico-sdk submodule update --init
+echo 'export PICO_SDK_PATH=/opt/pico-sdk' | sudo tee -a /etc/profile.d/pico-sdk.sh
+sudo source /etc/profile
+```
+Or follow instructions at https://lindevs.com/set-up-raspberry-pi-pico-sdk-on-ubuntu
 
 ## What's Included
 
