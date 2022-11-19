@@ -26,13 +26,13 @@ build option at the bottom of the window.
 
 Run these commands:
 ```
-sudo apt install -y build-essential cmake gcc-arm-none-eabi
+sudo apt install -y cmake gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib
 sudo git clone https://github.com/raspberrypi/pico-sdk.git /opt/pico-sdk
 sudo git -C /opt/pico-sdk submodule update --init
 echo 'export PICO_SDK_PATH=/opt/pico-sdk' | sudo tee -a /etc/profile.d/pico-sdk.sh
 sudo source /etc/profile
 ```
-Or follow instructions at https://lindevs.com/set-up-raspberry-pi-pico-sdk-on-ubuntu
+Or follow instructions at https://lindevs.com/set-up-raspberry-pi-pico-sdk-on-ubuntu web address or read "Quick-start" section at https://github.com/raspberrypi/pico-sdk web address.
 
 ## What's Included
 
