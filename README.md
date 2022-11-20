@@ -27,7 +27,7 @@ build option at the bottom of the window.
 Run these commands:
 ```
 sudo apt-get update
-sudo apt install -y git python3 cmake gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib
+sudo apt install -y git build-essential python3 cmake gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib
 sudo git clone https://github.com/raspberrypi/pico-sdk.git /opt/pico-sdk
 sudo git -C /opt/pico-sdk submodule update --init
 export PICO_SDK_PATH=/opt/pico-sdk | sudo tee -a /etc/profile.d/pico-sdk.sh
