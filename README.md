@@ -33,7 +33,7 @@ Then:
 ```
 sudo git clone https://github.com/raspberrypi/pico-sdk.git /opt/pico-sdk
 sudo git -C /opt/pico-sdk submodule update --init
-export PICO_SDK_PATH=/opt/pico-sdk | sudo tee -a /etc/profile.d/pico-sdk.sh
+export PICO_SDK_PATH=/opt/pico-sdk
 sudo source /etc/profile
 ```
 Or follow instructions at https://lindevs.com/set-up-raspberry-pi-pico-sdk-on-ubuntu web address or read "Quick-start" section at https://github.com/raspberrypi/pico-sdk web address.
