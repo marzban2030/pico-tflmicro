@@ -44,6 +44,7 @@ cd pico-tflmicro
 mkdir build
 cd build
 cmake ..
+make
 ```
 
 ## What's Included
