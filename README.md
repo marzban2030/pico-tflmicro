@@ -47,6 +47,8 @@ cmake ..
 make
 ```
 
+If your system has multicore CPU use "make -jN" command (Which N is a number between 2 and maximum N=2×CPU cores) instead of "make" command at last line. 
+
 ## What's Included
 
 There are several example applications included. The simplest one to begin with is the
