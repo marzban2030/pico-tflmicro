@@ -52,7 +52,7 @@ cmake ..
 make
 ```
 
-If your system has multicore CPU use "make -jN" command (Which N is a number between 2 and maximum N=2×CPU cores) instead of "make" command to compiling faster at last line. 
+If your system has multicore CPU use "make -jN" command (Which N is a number between 1 and 2×number of CPU cores) instead of "make" command to compiling faster at last line. For example: Use "make -j12" command at a system with an Octa-core CPU.
 
 ## What's Included
 
